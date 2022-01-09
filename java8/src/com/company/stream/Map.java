@@ -1,12 +1,10 @@
 package com.company.stream;
 
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.util.Arrays.asList;
-import static jdk.nashorn.internal.objects.NativeArray.map;
 
 public class Map {
     public static void main(String[] args) {
@@ -28,8 +26,22 @@ public class Map {
         ---il faut en suite une focnction de terminaison pour soir collecter et retourner une collection
         soit faire une action comme affichier directement le résiultat "forEach"
 
-         */
-        entiers.stream()
+        /* A partir d'un liste de nombre,
+         * afficher (sans créer une nouvelle liste) une liste/collection
+         * contenant le multiple par 3 de chaque nombre  */
+
+
+
+        ArrayList<Integer> nombreEntiers = new ArrayList<>();
+        nombreEntiers.add(1);
+        nombreEntiers.add(2);
+        nombreEntiers.add(3);
+        nombreEntiers.add(4);
+        nombreEntiers.add(5);
+        nombreEntiers.add(6);
+        nombreEntiers.add(7);
+
+        nombreEntiers.stream()
                 .map(i -> i * 3)
                 .forEach(System.out::println);
     }
