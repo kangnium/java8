@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class CollectorsAvgSummarizing {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         // :: donne la moyenne en Double de la collection
         // Collectors.averagingInt
         // Collectors.averagingLong
@@ -54,7 +54,7 @@ public class CollectorsAvgSummarizing {
         System.out.println(summary2);//output of combined summary
 
 
-        Integer summary3 = numSet.stream().collect(Collectors.summingInt(x->x));
+        Integer summary3 = numSet.stream().mapToInt(x -> x).sum();
         System.out.println(summary3);
         // System.out.println(summary3.  .getMax());
     }

@@ -6,9 +6,9 @@ import java.util.Set;
 
 import static java.util.stream.Collectors.*;
 
-public class ToSetToMap {
+public class CollectorsToSetToMap {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Set<Integer> numSet = new HashSet<>();
         numSet.add(1);
@@ -16,6 +16,8 @@ public class ToSetToMap {
         numSet.add(4);
         numSet.add(7);
         numSet.add(9);
+
+        System.out.println(numSet);
 
         Set<Integer> filteredSet = numSet.stream().filter(a -> a>3).collect(toSet());
         System.out.println(filteredSet);
