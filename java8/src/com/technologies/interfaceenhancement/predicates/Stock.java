@@ -21,13 +21,8 @@ public class Stock {
     public boolean equals(Object object){
         Stock stock = (Stock) object;
 
-        if(name.equals(stock.name) &&
-        stockPrice.equals(stock.stockPrice)
-        && stockQty.equals(stock.stockQty)){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return name.equals(stock.name) &&
+                stockPrice.equals(stock.stockPrice)
+                && stockQty.equals(stock.stockQty);
     }
 }

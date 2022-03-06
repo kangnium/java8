@@ -8,7 +8,7 @@ public class StaticMethodDemoClass implements StaticMethodDemo {
 
     public static void main(String[] a){
         StaticMethodDemoClass obj = new StaticMethodDemoClass();
-        obj.show();
+        show();
         StaticMethodDemo.show();// static method can be called by the name of the interface
     }
 

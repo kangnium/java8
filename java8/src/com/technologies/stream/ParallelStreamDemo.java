@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ParallelStreamDemo {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         List<Integer> intList = Arrays.asList(1,2,3,4,5,6,7,8,9);
         //Sequential stream - It follows order and runs items in stream in a sequence, it is slow in processing

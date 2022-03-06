@@ -16,7 +16,7 @@ public class Reduce {
         List<Integer> entiers = asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 
-        System.out.println(entiers);//[1, 2, 3, 4, 5, 6, 7]
+        System.out.println(entiers); //[1, 2, 3, 4, 5, 6, 7]
 
         System.out.println(entiers.stream().reduce((a, b)->a+b).get());
     }

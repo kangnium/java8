@@ -13,8 +13,8 @@ public class Filter {
         List<Integer> lesNombres = asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
         System.out.println(lesNombres);//[1, 2, 3, 4, 5, 6, 7]
-        //Until Java 7 - Odd numbers
 
+        //Until Java 7 - pour lister des nombres impairs
         List<Integer> nombreImpairs = new ArrayList<>();
         for (Integer num : lesNombres) {
             if (num % 2 != 0) {

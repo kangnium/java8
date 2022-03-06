@@ -10,7 +10,7 @@ public class Map {
     public static void main(String[] args) {
         List<Integer> entiers = asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
-        /*A partir d'un liste de nombre,
+        /* A partir d'un liste de nombre,
          * créer et afficher une liste/collection
          * contenant le multiple par 3 de chaque nombre  */
 

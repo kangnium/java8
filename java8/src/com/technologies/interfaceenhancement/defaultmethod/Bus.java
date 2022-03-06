@@ -4,11 +4,11 @@ public class Bus implements VehicleJava8 {
 
     void show(){
         Bus b = new Bus();
-        //b.details();
+        b.details();
     }
 
     @Override
-    public void mileage() {
+    public void details() {
 
     }
 }

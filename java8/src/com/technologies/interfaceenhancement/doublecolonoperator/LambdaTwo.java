@@ -3,5 +3,5 @@ package com.technologies.interfaceenhancement.doublecolonoperator;
 @FunctionalInterface
 public interface LambdaTwo {
 
-    public void show2(int num);
+    void show2(int num);
 }
